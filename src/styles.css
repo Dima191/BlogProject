@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+.background_image{
+  background-image: url('https://img4.goodfon.ru/original/1920x1080/a/da/abstraktsiia-oboi-1920x1080-polosy-fon-goluboi-fon-kreativ-k.jpg');
+  background-repeat: no-repeat;
+  background-size: cover ;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.content{
+  margin-top: 4rem;
+}
+.active{
+  color: black !important;
+}
+
+@media (max-width:40rem) {
+  .background_image{
+    background-position: right 5%;
+  }
+}

@@ -1,0 +1,23 @@
+p{
+  width: 100%;
+  color:#acacac;
+  text-align: center;
+  font-size: 1.4rem;
+}
+h1{
+  width: 100%;
+  color:white;
+  text-align: center;
+}
+h3{
+  width: 100%;
+  color: #acacac;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.content{
+  position: absolute;
+  top: 25%;
+  width: 60vw;
+  left: calc((100vw - 60vw)/2);
+}

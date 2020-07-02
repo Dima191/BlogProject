@@ -1,0 +1,30 @@
+.inline_el{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    align-items: center;
+    list-style: none;
+    margin: 0 1.2rem;
+    padding: 10px;
+  }
+
+  .inline_el li a{
+    padding: 15px;
+    text-decoration: none;
+    color: grey;
+  }
+
+  .inline_el li a:hover{
+    color: #b4b4b4;
+  }
+
+  .nav_bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkgrey;
+    height: 4rem;
+    z-index: 2;
+  }
+
